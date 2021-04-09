@@ -126,5 +126,8 @@ cd ~
 export FZF_BASE="$HOME/.fzf"
 export FZF_DEFAULT_COMMAND='find .'
 
+# Export binfiles
+export PATH=$PATH:/home/ajunaidi/binfiles
+
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null 
