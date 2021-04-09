@@ -12,9 +12,6 @@ ZSH_THEME="refined"
 # Load plugins
 plugins=(git zsh-autosuggestions fzf)
 
-# Source ZSH
-source $ZSH/oh-my-zsh.sh
-
 # Get history
 HISTSIZE=10000
 SAVEHIST=10000
