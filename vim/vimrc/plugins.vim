@@ -2,7 +2,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'ervandew/supertab'
 Plug 'Valloric/YouCompleteMe'
-" Plug 'psf/black', { 'branch': 'stable' }
 Plug 'psf/black'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'preservim/nerdtree'
