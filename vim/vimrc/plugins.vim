@@ -36,5 +36,6 @@ Plug '~/.fzf'
 Plug 'schickling/vim-bufonly'
 Plug 'lervag/vimtex'
 Plug 'tpope/vim-scriptease'
+Plug 'morhetz/gruvbox'
 
 call plug#end()

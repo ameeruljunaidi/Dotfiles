@@ -119,7 +119,8 @@ unset __conda_setup
 export BROWSER='/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'
 
 # Change the color of autosuggestions
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=39'
+# You'd use this for light themes
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=39'
 
 # Cd to home directory when start
 cd ~
