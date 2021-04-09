@@ -3,3 +3,5 @@
 	name = AJ
 [core]
 	excludesfile = /home/ajunaidi/.gitignore_global
+[init]
+	templatedir = ~/.git_template
