@@ -87,6 +87,8 @@ alias tmux-invpsy='tmux-invpsy.sh'
 alias md-beamer='md_beamer.sh'
 alias pytex='pythontex.sh'
 alias pull-all='pull-all.sh'
+alias pull-git='pull-git.sh'
+alias push-git='push-git.sh'
 
 # Display for WSL2
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
