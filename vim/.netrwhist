@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/ajunaidi/coding/invpsych_gproject/tables'
+let g:netrw_dirhist_4='/home/ajunaidi/coding/invpsych_gproject'
+let g:netrw_dirhist_3='/mnt/c/Users/ameer/OneDrive - University of Toronto/Documents/Resources/Coding/r_tutorials/wrangling_f1'
+let g:netrw_dirhist_2='/home/ajunaidi'
+let g:netrw_dirhist_1='/mnt/c/Users/ameer'

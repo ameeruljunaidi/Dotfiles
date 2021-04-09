@@ -1,0 +1,625 @@
+###########################################################################
+#                            Markdown Snippets                            #
+###########################################################################
+
+extends pelican
+
+#############
+#  Headers  #
+#############
+
+snippet h1 "Header h1" b
+# ${1:Header name}
+
+$0
+endsnippet
+
+snippet h1i "Header h1 with id" b
+# ${1:Header name} {#${2:id}}
+
+$0
+endsnippet
+
+snippet h2 "Header h2" b
+## ${1:Header name}
+
+$0
+endsnippet
+
+snippet h2i "Header h2 with id" b
+## ${1:Header name} {#${2:id}}
+
+$0
+endsnippet
+
+snippet h3 "Header h3" b
+### ${1:Header name}
+
+$0
+endsnippet
+
+snippet h3i "Header h3 with id" b
+### ${1:Header name} {#${2:id}}
+
+$0
+endsnippet
+
+snippet h4 "Header h4" b
+#### ${1:Header name}
+
+$0
+endsnippet
+
+snippet h4i "Header h4 with id" b
+#### ${1:Header name} {#${2:id}}
+
+$0
+endsnippet
+
+snippet h5 "Header h5" b
+##### ${1:Header name}
+
+$0
+endsnippet
+
+snippet h5i "Header h5 with id" b
+##### ${1:Header name} {#${2:id}}
+
+$0
+endsnippet
+
+snippet h6 "Header h6" b
+###### ${1:Header name}
+
+$0
+endsnippet
+
+snippet h6i "Header h6 with id" b
+###### ${1:Header name} {#${2:id}}
+
+$0
+endsnippet
+
+snippet hrlnk "Header ID Link"
+[${1:Text}](#${2:Header ID})$0
+endsnippet
+
+snippet hrlac "Header ID Link auto-complete"
+[${1:Text}](#${1/(\w+)(\s*)/\L$1\E(?2:-)/g})$0
+endsnippet
+
+###########
+#  Links  #
+###########
+
+snippet lnk "Inline Link"
+[${1:${VISUAL:Text}}](${3:http://${2:www.url.com}}${4/.+/ "/}${4:opt title}${4/.+/"/})$0
+endsnippet
+
+snippet rlnk "Reference-style link"
+[${1:${VISUAL:Text}}][${2:Reference}]$0
+endsnippet
+
+snippet rdef "Reference-style link ID"
+[${1}]: ${3:http://${2:www.url.com}}
+$0
+endsnippet
+
+snippet flnk "Fast link"
+<http://${1:url}>$0
+endsnippet
+
+
+##############
+#  Emphasis  #
+##############
+
+snippet * "Italic"
+*${1:${VISUAL:Text}}*$0
+endsnippet
+
+snippet _ "Strong"
+__${1:${VISUAL:Text}}__$0
+endsnippet
+
+snippet *_ "Italic and Strong"
+***${1:${VISUAL:Text}}***$0
+endsnippet
+
+
+############
+#  Quotes  #
+############
+
+snippet > "Quote" !b
+ > ${1:${VISUAL:Text}:${VISUAL:Text}}
+
+$0
+endsnippet
+
+
+###########
+#  Lists  #
+###########
+
+snippet ol "Ordered List"
+1. ${1}
+2. ${2}
+3. ${3}
+4. ${4}
+$0
+endsnippet
+
+snippet ul "Unordered List"
+* ${1}
+* ${2}
+* ${3}
+* ${4}
+$0
+endsnippet
+
+
+######################
+#  Definition Lists  #
+######################
+
+snippet dl "Definition List" !b
+${1:Word 1}
+: ${2:Definition}
+${3:Word 2}
+: ${4:Definition}
+${5:Word 3}
+: ${6:Definition}
+${7:Word 4}
+: ${8:Definition}
+
+$0
+endsnippet
+
+
+############
+#  Images  #
+############
+
+snippet img! "Image"
+![${1:pic alt}](${2:path}${3/.+/ "/}${3:opt title}${3/.+/"/})$0
+endsnippet
+
+snippet ilnk "Reference-style Image"
+![${1:${VISUAL:Text}}][${2:Reference}] $0
+endsnippet
+
+snippet idef "Reference-style Image ID"
+  [${1}]: ${2:path}${3/.+/ "/}${3:opt title}${3/.+/"/}
+  $0
+endsnippet
+
+
+############
+#  Tables  #
+############
+
+snippet table "Table"
+${1:First Header}   | ${6:First Header}
+--------------------|--------------------
+${2:Content Cell}   | ${7:Content Cell}
+${3:Content Cell}   | ${8:Content Cell}
+${4:Content Cell}   | ${9:Content Cell}
+${5:Content Cell}   | ${10:Content Cell}
+$0
+endsnippet
+
+
+##########
+#  Code  #
+##########
+
+snippet ` "Inline code"
+\`${1:code}\` $0
+endsnippet
+
+snippet ~ "Code" b
+~~~
+${1:${VISUAL:Code}}
+~~~
+$0
+endsnippet
+
+
+#####################
+#  Horizontal Rule  #
+#####################
+
+snippet hr "Horizontal Rule" b
+----------
+
+$0
+endsnippet
+
+
+###############
+#  Footnotes  #
+###############
+
+snippet ft "Footnote Reference"
+[^${1:Footnote label}]
+endsnippet
+
+snippet ftd "Footnote Definition"
+  [^${1:footnote label}]: ${2:Footnote}
+  $0
+endsnippet
+
+
+##################
+# Abbreviations  #
+##################
+
+
+snippet abb "Abbreviation" b
+*[${1:abbreviation}]: ${2:definition}
+endsnippet
+
+########
+# Math #
+########
+
+priority 0
+
+# Keys are set in coofdinate to Greek's keyboard layout
+#snippet "\\G " "Gamma" Air
+#\Gamma 
+#endsnippet
+
+snippet \G "Gamma" i
+\Gamma
+endsnippet
+
+snippet \D "Delta" i
+\Delta
+endsnippet
+
+snippet \L "Lambda" i
+\Lambda
+endsnippet
+
+snippet \F "Phi" i
+\Phi
+endsnippet
+
+snippet \P "Pi" i
+\Pi
+endsnippet
+
+snippet \C "Psi" i
+\Psi
+endsnippet
+
+snippet \S "Sigma" i
+\Sigma
+endsnippet
+
+snippet \U "Theta" i
+\Theta
+endsnippet
+
+snippet \Y "Upsilon" i
+\Upsilon
+endsnippet
+
+snippet \J "Xi" i
+\Xi
+endsnippet
+
+snippet \V "Omega" i
+\Omega
+endsnippet
+
+snippet \a "alpha" i
+\alpha
+endsnippet
+
+snippet \b "beta" i
+\beta
+endsnippet
+
+snippet \g "gamma" i
+\gamma
+endsnippet
+
+snippet \d "delta" i
+\delta
+endsnippet
+
+snippet \e "epsilon" i
+\epsilon
+endsnippet
+
+snippet \z "zeta" i
+\zeta
+endsnippet
+
+snippet \h "eta" i
+\eta
+endsnippet
+
+snippet \u "theta" i
+\theta
+endsnippet
+
+snippet \i "iota" i
+\iota
+endsnippet
+
+snippet \k "kappa" i
+\kappa
+endsnippet
+
+snippet \l "lambda" i
+\lambda
+endsnippet
+
+snippet \m "mu" i
+\mu
+endsnippet
+
+snippet \n "nu" i
+\nu
+endsnippet
+
+snippet \j "xi" i
+\xi
+endsnippet
+
+snippet \p "pi" i
+\pi
+endsnippet
+
+snippet \r "rho" i
+\rho
+endsnippet
+
+snippet \s "sigma" i
+\sigma
+endsnippet
+
+snippet \t "tau" i
+\tau
+endsnippet
+
+snippet \y "upsilon" i
+\upsilon
+endsnippet
+
+snippet \f "phi" i
+\phi
+endsnippet
+
+snippet \x "chi" i
+\chi
+endsnippet
+
+snippet \c "psi" i
+\psi
+endsnippet
+
+snippet \v "omega" i
+\omega
+endsnippet
+
+snippet \dg "digamma" i
+\digamma
+endsnippet
+
+snippet \ve "varepsilon" i
+\varepsilon
+endsnippet
+
+snippet \vf "varphi" i
+\varphi
+endsnippet
+
+snippet \vp "varpi" i
+\varpi
+endsnippet
+
+snippet \vr "varrho" i
+\varrho
+endsnippet
+
+snippet \vs "varsigma" i
+\varsigma
+endsnippet
+
+snippet \vu "vartheta" i
+\vartheta
+endsnippet
+#-----------------------------------------------------------------------
+snippet () "left( right)" Ai
+(${1:${VISUAL}})
+endsnippet
+
+snippet [] "left[ right]" Ai
+[${1:${VISUAL}}]
+endsnippet
+
+snippet {} "left{ right}" Ai
+{${1:${VISUAL}}}
+endsnippet
+
+# Not work
+#snippet !\"\"! "left" right"" Air
+#"${1:${VISUAL}}"
+#endsnippet
+
+snippet || "left| right|" Ai
+|${1:${VISUAL}}|
+endsnippet
+
+snippet (] "left( right]" Ai
+(${1:${VISUAL}}]
+endsnippet
+
+snippet [) "left[ right)" Ai
+[${1:${VISUAL}})
+endsnippet
+
+snippet "_($)?" "_left{ right}" Ar
+_{${1:${VISUAL}}}
+endsnippet
+
+snippet "\^($)?" "^left{ right}" Ar
+^{${1:${VISUAL}}}
+endsnippet
+
+snippet $ "left$ right$" Ai
+$${1:${VISUAL}}$
+endsnippet
+
+#snippet "[^\\]\(" "left( right)" Air
+#(${1:${VISUAL}})
+#endsnippet
+
+snippet \l( "left\( right\)" Ai
+\left( ${1:${VISUAL}} \right)
+endsnippet
+
+snippet \{ "left\{ right\}" Ai
+\\{${1:${VISUAL}}\\}
+endsnippet
+
+snippet \l[ "left\[ right\]" Ai
+\\[ ${1:${VISUAL}} \\]
+endsnippet
+
+snippet \l| "left\| right\|" Ai
+\left| ${1:${VISUAL}} \right|
+endsnippet
+
+snippet \l{ "left\{ right\}" Ai
+\left\\{ ${1:${VISUAL}} \right\\}
+endsnippet
+
+# Some bug see \textLabel{
+#snippet "[^\\_]\{" "left{ right}" Air
+#{${1:${VISUAL}}} 
+#endsnippet
+
+snippet \[ "left\[ right\]" Ai
+\[ ${1:${VISUAL}} \]
+endsnippet
+
+#snippet "[^\\][" "left[ right]" w
+#\left[ ${1:${VISUAL}} \right]
+#endsnippet
+
+snippet norm "Norm" i
+\norm{$1}
+endsnippet
+
+snippet lim "Limit" i
+\lim_{${1:n\to \infty}}
+endsnippet
+
+snippet int "Integral" i
+\int_{${1:0}}^{${2:\infty}}
+endsnippet
+
+snippet sum "Sum" i
+\sum_{${1:n=0}}^{${2:\infty}}
+endsnippet
+
+snippet prod "Product" i
+\prod_{${1:1}}^{${2:\infty}}
+endsnippet
+
+snippet frac "Fraction" i
+\frac{${1:${VISUAL:1}}}{${2:n}}
+endsnippet
+
+snippet sqrt "Sqrt" i
+\sqrt{${1}}
+endsnippet
+
+# Not use
+snippet par "partial" i
+\partial
+endsnippet
+
+#snippet \Lap "Laplacian" i
+#\triangle
+#endsnippet
+
+#snippet \dA "d'Alembertian" i
+#\square
+#endsnippet
+#-----------------------------------------------------------------------
+# For temporary use, these should be customed to personal preference
+snippet wt "\widetilde" i
+\\widetilde
+endsnippet
+
+snippet nvs "normed vector space" i
+normed vector space
+endsnippet
+
+snippet ips "normed vector space" i
+inner-product space
+endsnippet
+
+snippet cu  "normed vector space" i
+Cauchy sequence
+endsnippet
+
+snippet st  "normed vector space" i
+such that
+endsnippet
+
+snippet iff  "normed vector space" i
+if and only if
+endsnippet
+
+snippet bs  "normed vector space" i
+Banach space
+endsnippet
+
+snippet lo  "normed vector space" i
+linear operator
+endsnippet
+
+snippet inj  "normed vector space" i
+injective
+endsnippet
+
+snippet con  "normed vector space" i
+continuous
+endsnippet
+
+snippet cs  "normed vector space" i
+convergent sequence
+endsnippet
+
+snippet span  "normed vector space" i
+\Span($1)_{${2:n=1}}^{${3:\infty}}
+endsnippet
+
+snippet qt  "normed vector space" i
+\quad \text{$1}
+endsnippet
+
+# vim:ft=snippets:
+
+##############################
+# Markdwon Specific Snippets #
+##############################
+
+snippet md-def "Default YAML"
+---
+title: "${1:title}"
+author: Muhammad Ameerul Bin (AJ) Junaidi
+date: "${2:date}"
+geometry: margin=1in
+output: pdf_document
+---
+$0
+endsnippet

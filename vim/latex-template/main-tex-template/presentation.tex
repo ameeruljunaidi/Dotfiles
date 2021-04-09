@@ -1,0 +1,39 @@
+\input{misc/beamer}
+\begin{document}
+\metroset{block = fill}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}[t]
+{Sample Frame} \vspace{4pt}
+    Ok it still works
+   \begin{block}
+{Definition of Something}
+        \vspace{0.5em}
+       This is a definition for something.
+       \vspace{0.5em}
+   \end{block}
+   \only<1>{This is how you \line(1,0){50}.}
+   \only<2>{This is how you \textcolor{magenta}{show stuff on different slides.}}
+\end{frame}
+
+\begin{frame}[t]
+{Flashcard} \vspace{4pt}
+   \begin{columns}[onlytextwidth]
+       \column{0.5\textwidth}
+       This is the first column.
+       \column{0.5\textwidth}
+       This is the 2nd column.
+       \vspace{10pt}
+       \includegraphics[width = \textwidth]{figures/doge.jpg}
+   \end{columns}
+\end{frame}
+
+\begin{frame}[standout]
+    \vspace{25pt}
+    End slide
+\end{frame}
+
+\end{document}
