@@ -34,7 +34,7 @@ nnoremap <leader>l  $
 
 " NerdTree keymaps
 nnoremap <leader>u :UndotreeShow<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <leader>T :NERDTreeToggle<CR>
 nnoremap <leader>n :NERDTreeFocus<CR>
 
 " YCM & Ultisnips keymaps
