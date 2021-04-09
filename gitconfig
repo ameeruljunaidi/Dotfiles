@@ -1,0 +1,5 @@
+[user]
+	email = ameerul.junaidi@gmail.com
+	name = AJ
+[core]
+	excludesfile = /home/ajunaidi/.gitignore_global
