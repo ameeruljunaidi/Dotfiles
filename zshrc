@@ -10,7 +10,7 @@ export ZSH="/home/ajunaidi/.oh-my-zsh"
 ZSH_THEME="refined"
 
 # Load plugins
-plugins=(git zsh-autosuggestions fzf)
+plugins=(git zsh-autosuggestions fzf zsh-syntax-highlighting)
 
 # Source ZSH
 source $ZSH/oh-my-zsh.sh
@@ -129,5 +129,3 @@ export FZF_DEFAULT_COMMAND='find .'
 # Export binfiles
 export PATH=$PATH:/home/ajunaidi/binfiles
 
-# Load zsh-syntax-highlighting; should be last.
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null 
