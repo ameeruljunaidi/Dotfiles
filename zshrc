@@ -77,9 +77,9 @@ bindkey -s '^o' 'lfcd\n'
 # Directory aliases
 alias coding='cd ~/coding'
 alias bin='cd /usr/local/bin'
-alias uoft='cd /mnt/c/Users/AJ/OneDriveUofT/Documents/UofT'
+alias uoft='cd ~/documents/uoft/courses'
 alias invpsy='cd ~/coding/invpsych_gproject'
-alias docs='cd /mnt/c/Users/AJ/OneDriveUofT/Documents'
+alias docs='cd ~/documents'
 
 # Executable aliases
 alias tmux-ipython='tmux-ipython.sh'
@@ -131,6 +131,9 @@ cd ~
 export FZF_BASE="$HOME/.fzf"
 export FZF_DEFAULT_COMMAND='find .'
 
-# Export binfiles
+# Export binfiles and local bin
 export PATH=$PATH:/home/ajunaidi/binfiles
+export PATH=$PATH:/home/ajunaidi/.local/bin
 
+# Theme for bat
+export BAT_THEME="gruvbox"

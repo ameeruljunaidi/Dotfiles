@@ -1,6 +1,3 @@
-" Markdown preview settings
-let g:mkdp_command_for_global = 1
-
 " Set autosave
 let b:auto_save = 1
 

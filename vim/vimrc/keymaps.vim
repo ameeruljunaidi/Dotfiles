@@ -25,8 +25,8 @@ nnoremap <silent> <Leader>- :vertical resize -5<CR>
 nnoremap <CR> :noh<CR>
 
 " Fzf settings
-nnoremap <silent> <leader>f :FZF<cr>
-nnoremap <silent> <leader>F :FZF ~<cr>
+nnoremap <silent> <leader>f :Files!<cr>
+nnoremap <silent> <leader>F :Files! ~/<cr>
 
 " Easy cursor movement
 nnoremap <leader>h  0
@@ -56,3 +56,6 @@ let g:lexical#dictionary_key = '<leader>k'
 " Litecorrect keymaps
 nnoremap <C-s> [s1z=<c-o>
 inoremap <C-s> <c-g>u<Esc>[s1z=`]A<c-g>u
+
+" Setup for fzf preview in vim 
+let g:fzf_preview_window = ['right:50%', 'ctrl-/']

@@ -57,3 +57,5 @@ if empty(v:servername) && exists('*remote_startserver')
     call remote_startserver('VIM')
 endif
 
+" Markdown preview settings
+let g:mkdp_command_for_global = 1
