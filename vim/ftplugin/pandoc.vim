@@ -1,6 +1,3 @@
-" Concel stuff in markdown
-let g:pandoc#syntax#conceal#urls = 1
-
 " Markdown preview settings
 let g:mkdp_command_for_global = 1
 
