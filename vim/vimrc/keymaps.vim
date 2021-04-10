@@ -1,7 +1,12 @@
 " Tab management
-map <C-j> gT
-map <C-k> gt
-map <C-w> :tabclose!<CR>
+" map <C-j> gT
+" map <C-k> gt
+" map <C-w> :tabclose!<CR>
+nmap <leader>E :enew<cr>
+nmap <C-k> :bnext<CR>
+nmap <C-j> :bprevious<CR>
+nmap <C-w> :bp <BAR> bd #<CR>
+nmap <leader>bl :ls<CR>
 
 " Searching stuff
 map /  <Plug>(incsearch-forward)
@@ -23,10 +28,6 @@ nnoremap <silent> <Leader>- :vertical resize -5<CR>
 
 " Cancel highlighting
 nnoremap <CR> :noh<CR>
-
-" Fzf settings
-nnoremap <silent> <leader>f :Files!<cr>
-nnoremap <silent> <leader>F :Files! ~/<cr>
 
 " Easy cursor movement
 nnoremap <leader>h  0
@@ -57,5 +58,7 @@ let g:lexical#dictionary_key = '<leader>k'
 nnoremap <C-s> [s1z=<c-o>
 inoremap <C-s> <c-g>u<Esc>[s1z=`]A<c-g>u
 
-" Setup for fzf preview in vim 
+" Fzf settings
+nnoremap <silent> <leader>f :Files!<cr>
+nnoremap <silent> <leader>F :Files! ~/<cr>
 let g:fzf_preview_window = ['right:50%', 'ctrl-/']

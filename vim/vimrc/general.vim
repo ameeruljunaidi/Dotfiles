@@ -30,6 +30,7 @@ set hlsearch
 set nocompatible
 set thesaurus+=~/.vim/thesaurus/mthesaur.txt
 set autochdir
+set hidden
 filetype plugin on
 
 " Remap leader

@@ -121,7 +121,7 @@ export BROWSER='/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'
 
 # Change the color of autosuggestions
 # You'd use this for light themes
-# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=39'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=39'
 
 # Cd to home directory when start
 cd ~
@@ -136,4 +136,5 @@ export PATH=$PATH:/home/ajunaidi/binfiles
 export PATH=$PATH:/home/ajunaidi/.local/bin
 
 # Theme for bat
-export BAT_THEME="gruvbox"
+# export BAT_THEME="gruvbox"
+export BAT_THEME="ansi-light"

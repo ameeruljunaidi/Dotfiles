@@ -2,6 +2,7 @@ source ~/.vim/vimrc/plugins.vim
 source ~/.vim/vimrc/general.vim
 source ~/.vim/vimrc/fzf.vim
 source ~/.vim/vimrc/themes.vim 
+source ~/.vim/vimrc/airline.vim
 source ~/.vim/vimrc/keymaps.vim
 source ~/.vim/vimrc/black.vim
 source ~/.vim/vimrc/ycm-ultisnip.vim
