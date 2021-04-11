@@ -2,7 +2,7 @@
 " Have to put it here cause it didn't work in ftplugin
 augroup pencil
   autocmd!
-  autocmd FileType markdown,mkd,rmarkdown,pandoc call pencil#init({'wrap': 'hard', 'autoformat': 1, 'conceallevel' : 2})
+  autocmd FileType markdown,mkd,rmarkdown,pandoc call pencil#init({'wrap': 'hard', 'autoformat': 0, 'conceallevel' : 2})
                                              \ | call lexical#init()
                                              \ | call litecorrect#init()
   autocmd FileType tex,tex.python                call pencil#init({'wrap': 'hard', 'autoformat': 0, 'conceallevel' : 0})

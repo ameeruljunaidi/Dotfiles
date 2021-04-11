@@ -9,4 +9,6 @@ endif
 
 " Ultisnips settings
 
-let g:UltiSnipsSnippetDirectories=["UltiSnips", "custom-snippets"]
+let g:UltiSnipsSnippetDirectories=["/home/ajunaidi/dotfiles/vim/plugged/vim-snippets/UltiSnips", "/home/ajunaidi/dotfiles/vim/custom-snippets"]
+
+
