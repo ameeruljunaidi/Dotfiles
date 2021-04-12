@@ -31,7 +31,16 @@ set nocompatible
 set thesaurus+=~/.vim/thesaurus/mthesaur.txt
 set autochdir
 set hidden
+set iskeyword+=-
+set splitbelow 
+set splitright 
+set smarttab
+set cursorline
+set ruler
 filetype plugin on
+
+" Auto source
+au! BufWritePost $MYVIMRC source %
 
 " Remap leader
 let mapleader = " "

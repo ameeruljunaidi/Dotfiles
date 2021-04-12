@@ -8,6 +8,14 @@ nmap <C-j> :bprevious<CR>
 nmap <C-w> :bp <BAR> bd #<CR>
 nmap <leader>bl :ls<CR>
 
+" Escape with jk or kj
+inoremap jk <Esc>
+inoremap kj <Esc>
+
+" Better tabbing
+vnoremap < <gv
+vnoremap > >gv
+  
 " Searching stuff
 map /  <Plug>(incsearch-forward)
 map ?  <Plug>(incsearch-backward)
