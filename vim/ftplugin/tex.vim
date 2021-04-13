@@ -18,7 +18,7 @@ let b:auto_save = 1
 let g:goyo_width = 90
 
 " Asyncrun settings
-nmap <F5> :AsyncRun! -mode=term pythontex.sh %<CR>
+nmap <F5> :AsyncRun! -mode=term -close pythontex.sh %<CR>
 let g:asyncrun_open = 12
 
 " Settings for YCM

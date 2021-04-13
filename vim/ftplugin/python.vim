@@ -39,7 +39,7 @@ highlight BadWhitespace ctermbg=red guibg=red
 
 " Add a ruler to show line limit
 set colorcolumn=88
-highlight ColorColumn ctermbg=234
+highlight ColorColumn ctermbg=254
 
 " Keymap settings for Black
 nmap <F10> :Black<CR>

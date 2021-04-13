@@ -23,20 +23,21 @@ set mouse=a
 set guicursor+=a:blinkon0
 set guicursor-=a:blinkon0
 set guicursor&
-set noshowmode
-set noshowcmd
-set shortmess+=F
 set hlsearch
 set nocompatible
 set thesaurus+=~/.vim/thesaurus/mthesaur.txt
 set autochdir
 set hidden
 set iskeyword+=-
+set iskeyword+=_
 set splitbelow 
 set splitright 
 set smarttab
 set cursorline
 set ruler
+set noshowmode
+set noshowcmd
+set shortmess+=F
 filetype plugin on
 
 " Auto source

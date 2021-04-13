@@ -17,7 +17,6 @@ Plug 'junegunn/fzf.vim'
 " Plug '~/.fzf'
 Plug 'preservim/nerdtree'
 Plug 'schickling/vim-bufonly'
-Plug 'airblade/vim-rooter'
 
 " YCM and ultisnips plugins
 Plug 'ervandew/supertab'
@@ -42,6 +41,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'reedes/vim-colors-pencil'
 Plug 'morhetz/gruvbox'
+Plug 'arcticicestudio/nord-vim'
+Plug 'NLKNguyen/papercolor-theme'
 
 " Markdown/latex plugins
 Plug 'vim-pandoc/vim-pandoc'

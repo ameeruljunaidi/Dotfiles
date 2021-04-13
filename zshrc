@@ -97,7 +97,7 @@ export LIBGL_ALWAYS_INDIRECT=1
 sudo /etc/init.d/dbus start &> /dev/null
 export GDK_SCALE=1
 export GDK_DPI_SCALE=2
-export XDG_RUNTIME_DIR=/var/run/user/1000
+# export XDG_RUNTIME_DIR=/var/run/user/1000
 export RUNLEVEL=3
 export NO_AT_BRIDGE=1
 
@@ -138,3 +138,5 @@ export PATH=$PATH:/home/ajunaidi/.local/bin
 # Theme for bat
 # export BAT_THEME="gruvbox"
 export BAT_THEME="ansi-light"
+
+export EDITOR=vim

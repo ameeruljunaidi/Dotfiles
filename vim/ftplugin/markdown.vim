@@ -6,3 +6,6 @@ let g:lexical#spell = 1
 
 " Goyo settings
 let g:goyo_width = 90
+
+" Set filetype
+set filetype=pandoc
