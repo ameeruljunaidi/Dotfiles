@@ -45,15 +45,15 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'NLKNguyen/papercolor-theme'
 
 " Markdown/latex plugins
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
-Plug 'vim-pandoc/vim-rmarkdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'pandoc', 'vim-plug']}
-Plug 'lervag/vimtex'
 Plug 'junegunn/goyo.vim'
 Plug 'reedes/vim-pencil'
 Plug 'reedes/vim-lexical'
 Plug 'reedes/vim-litecorrect'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'vim-pandoc/vim-rmarkdown'
+Plug 'lervag/vimtex'
 Plug 'dkarter/bullets.vim'
 
 call plug#end()

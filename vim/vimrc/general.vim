@@ -39,8 +39,8 @@ set shortmess+=F
 set omnifunc=syntaxcomplete#Complete
 set nowrap
 set textwidth=88
-set smartindent
 set autoindent
+set smartindent
 set formatoptions=tcq
 set comments +=fb:*fb:*,fb:-,fb:+,n:>
 filetype plugin on

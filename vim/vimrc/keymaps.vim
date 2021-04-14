@@ -56,6 +56,7 @@ let g:SuperTabDefaultCompletionType = '<C-n>'
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+inoremap <c-x><c-k> <c-x><c-k>
 
 " Lexical keymaps
 let g:lexical#spell_key = '<leader>s'
