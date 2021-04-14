@@ -39,7 +39,8 @@ highlight BadWhitespace ctermbg=red guibg=red
 
 " Add a ruler to show line limit
 set colorcolumn=88
-highlight ColorColumn ctermbg=254
+" highlight ColorColumn ctermbg=254
+highlight ColorColumn ctermbg=237
 
 " Keymap settings for Black
 nmap <F10> :Black<CR>
@@ -48,3 +49,6 @@ autocmd BufWritePre *.py silent execute ':Black'
 " Run python with F9
 autocmd FileType python map <buffer> <F9> :w !python<CR>
 autocmd FileType python imap <buffer> <F9> <esc>:w !python<CR>
+
+" Accessibility stuff
+nnoremap <leader>a mzggVGy'z

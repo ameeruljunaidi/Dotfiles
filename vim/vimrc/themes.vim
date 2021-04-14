@@ -5,8 +5,8 @@ autocmd colorscheme * hi SpellBad cterm=None
 autocmd colorscheme * hi SpellCap cterm=underline
 autocmd colorscheme * hi SpellRare cterm=underline
 
-set background=light
-colorscheme PaperColor
+set background=dark
+colorscheme gruvbox
 
 hi SpellBad ctermfg=white ctermbg=160 cterm=None
 hi SpellCap ctermfg=NONE ctermbg=NONE cterm=underline
@@ -15,7 +15,7 @@ hi SpellRare ctermfg=NONE ctermbg=NONE cterm=underline
 set t_Co=256
 
 " Airline theme
-let g:airline_theme = 'papercolor'
+let g:airline_theme = 'gruvbox'
 let g:airline_powerline_fonts = 1
 
 " Change the color for search

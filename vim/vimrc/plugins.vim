@@ -54,5 +54,6 @@ Plug 'junegunn/goyo.vim'
 Plug 'reedes/vim-pencil'
 Plug 'reedes/vim-lexical'
 Plug 'reedes/vim-litecorrect'
+Plug 'https://github.com/prashanthellina/follow-markdown-links'
 
 call plug#end()
