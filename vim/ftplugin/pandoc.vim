@@ -6,3 +6,9 @@ let g:lexical#spell = 1
 
 " Goyo settings
 let g:goyo_width = 90
+
+" Remap local leader
+let maplocalleader = " "
+
+" Syntax setttings
+let g:pandoc#syntax#conceal#urls = 1

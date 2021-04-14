@@ -6,9 +6,7 @@ set vb t_vb=
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
-set smartindent
 set rnu
-set nowrap
 set smartcase
 set noswapfile
 set nobackup
@@ -38,6 +36,13 @@ set ruler
 set noshowmode
 set noshowcmd
 set shortmess+=F
+set omnifunc=syntaxcomplete#Complete
+set nowrap
+set textwidth=88
+set smartindent
+set autoindent
+set formatoptions=tcq
+set comments +=fb:*fb:*,fb:-,fb:+,n:>
 filetype plugin on
 
 " Auto source

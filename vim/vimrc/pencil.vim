@@ -1,4 +1,4 @@
-" Initialize pencil for filetypes
+"l Initialize pencil for filetypes
 " Have to put it here cause it didn't work in ftplugin
 augroup pencil
   autocmd!

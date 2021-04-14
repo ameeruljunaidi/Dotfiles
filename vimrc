@@ -8,3 +8,4 @@ source ~/.vim/vimrc/black.vim
 source ~/.vim/vimrc/ycm-ultisnip.vim
 source ~/.vim/vimrc/nerdtree.vim
 source ~/.vim/vimrc/pencil.vim
+source ~/.vim/vimrc/bullet.vim
