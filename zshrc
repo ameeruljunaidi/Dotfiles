@@ -77,9 +77,7 @@ bindkey -s '^o' 'lfcd\n'
 # Directory aliases
 alias coding='cd ~/coding'
 alias bin='cd /usr/local/bin'
-alias uoft='cd ~/documents/uoft/courses'
-alias invpsy='cd ~/coding/invpsych_gproject'
-alias docs='cd ~/documents'
+alias invpsy='cd ~/projects/invpsy_formulaone'
 
 # Executable aliases
 alias tmux-ipython='tmux-ipython.sh'

@@ -1,0 +1,226 @@
+\documentclass[11pt,]{article}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\newcommand*{\authorfont}{\fontfamily{phv}\selectfont}
+\usepackage[]{mathpazo}
+
+
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+
+
+
+
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+
+\renewenvironment{abstract}
+ {{%
+    \setlength{\leftmargin}{0mm}
+    \setlength{\rightmargin}{\leftmargin}%
+  }%
+  \relax}
+ {\endlist}
+
+\makeatletter
+\def\@maketitle{%
+  \newpage
+%  \null
+%  \vskip 2em%
+%  \begin{center}%
+  \let \footnote \thanks
+    {\fontsize{18}{20}\selectfont\raggedright  \setlength{\parindent}{0pt} \@title \par}%
+}
+%\fi
+\makeatother
+
+
+
+
+\setcounter{secnumdepth}{0}
+
+
+
+
+\title{A Pandoc Markdown Article Starter and
+Template \thanks{Replication files are available on the author's Github
+account (\url{http://github.com/svmiller}). \textbf{Current version}:
+April 15, 2021; \textbf{Corresponding author}:
+\href{mailto:svmille@clemson.edu}{\nolinkurl{svmille@clemson.edu}}.}  }
+ 
+
+
+
+\author{\Large Steven V.
+Miller\vspace{0.05in} \newline\normalsize\emph{Clemson University}  }
+
+
+\date{}
+
+\usepackage{titlesec}
+
+\titleformat*{\section}{\normalsize\bfseries}
+\titleformat*{\subsection}{\normalsize\itshape}
+\titleformat*{\subsubsection}{\normalsize\itshape}
+\titleformat*{\paragraph}{\normalsize\itshape}
+\titleformat*{\subparagraph}{\normalsize\itshape}
+
+
+\usepackage{natbib}
+\bibliographystyle{apsr}
+\usepackage[strings]{underscore} % protect underscores in most circumstances
+
+
+
+\newtheorem{hypothesis}{Hypothesis}
+\usepackage{setspace}
+
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{hyperref}
+
+% move the hyperref stuff down here, after header-includes, to allow for - \usepackage{hyperref}
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{%
+\ifxetex
+  \PassOptionsToPackage{hyphens}{url}\usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \PassOptionsToPackage{hyphens}{url}\usepackage[draft,unicode=true]{hyperref}
+\fi
+}
+
+\@ifpackageloaded{color}{
+    \PassOptionsToPackage{usenames,dvipsnames}{color}
+}{%
+    \usepackage[usenames,dvipsnames]{color}
+}
+\makeatother
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Steven V. Miller (Clemson University)},
+             pdfkeywords = {pandoc, r markdown, knitr},  
+            pdftitle={A Pandoc Markdown Article Starter and Template},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+
+% Add an option for endnotes. -----
+
+
+% add tightlist ----------
+\providecommand{\tightlist}{%
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% add some other packages ----------
+
+% \usepackage{multicol}
+% This should regulate where figures float
+% See: https://tex.stackexchange.com/questions/2275/keeping-tables-figures-close-to-where-they-are-mentioned
+\usepackage[section]{placeins}
+
+
+\begin{document}
+	
+% \pagenumbering{arabic}% resets `page` counter to 1 
+%    
+
+% \maketitle
+
+{% \usefont{T1}{pnc}{m}{n}
+\setlength{\parindent}{0pt}
+\thispagestyle{plain}
+{\fontsize{18}{20}\selectfont\raggedright 
+\maketitle  % title \par  
+
+}
+
+{
+   \vskip 13.5pt\relax \normalsize\fontsize{11}{12} 
+\textbf{\authorfont Steven V. Miller} \hskip 15pt \emph{\small Clemson
+University}   
+
+}
+
+}
+
+
+
+
+
+
+
+\begin{abstract}
+
+    \hbox{\vrule height .2pt width 39.14pc}
+
+    \vskip 8.5pt % \small 
+
+\noindent This document provides an introduction to R Markdown, argues
+for its benefits, and presents a sample manuscript template intended for
+an academic audience. I include basic syntax to R Markdown and a minimal
+working example of how the analysis itself can be conducted within R
+with the \texttt{knitr} package.
+
+
+\vskip 8.5pt \noindent \emph{Keywords}: pandoc, r markdown, knitr \par
+
+    \hbox{\vrule height .2pt width 39.14pc}
+
+
+
+\end{abstract}
+
+
+\vskip -8.5pt
+
+
+ % removetitleabstract
+
+\noindent  
+
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
+Academic workflow, certainly in political science, is at a crossroads.
+The \emph{American Journal of Political Science} (\emph{AJPS}) announced
+a (my words)
+\href{http://ajps.org/2015/03/26/the-ajps-replication-policy-innovations-and-revisions/}{``show
+your work'' initiative} in which authors who are tentatively accepted
+for publication at the journal must hand over the raw code and data that
+produced the results shown in the manuscript. The editorial team at
+\emph{AJPS} then reproduces the code from the manuscript. Pending
+successful replication, the manuscript moves toward publication. The
+\emph{AJPS} might be at the fore of this movement, and it could be the
+most aggressive among political science journals, but other journals in
+our field have signed the joint
+\href{http://www.dartstatement.org/}{Data Access \& Research
+Transparency} (DART) initiative. This, at a bare minimum, requires
+uploading code from quantitatively-oriented published articles to
+in-house directories hosted by the journal or to services like
+\href{http://dataverse.org/}{Dataverse}.
+
+Perhaps the greatest intrigue of R Markdown comes with the
+\href{http://yihui.name/knitr/}{\texttt{knitr} package} provided by
+\citet{xie2013ddrk}. In other words, the author can, if she chooses, do
+the analysis in the Markdown document itself and compile/execute it in
+R.
+
+
+
+
+
+\newpage
+\singlespacing 
+\bibliography{master.bib}
+
+\end{document}

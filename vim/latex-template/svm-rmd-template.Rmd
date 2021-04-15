@@ -27,9 +27,24 @@ endnote: no
 
 # Introduction
 
-Academic workflow, certainly in political science, is at a crossroads. The *American Journal of Political Science* (*AJPS*) announced a (my words) ["show your work" initiative](http://ajps.org/2015/03/26/the-ajps-replication-policy-innovations-and-revisions/) in which authors who are tentatively accepted for publication at the journal must hand over the raw code and data that produced the results shown in the manuscript. The editorial team at *AJPS* then reproduces the code from the manuscript. Pending successful replication, the manuscript moves toward publication. The *AJPS* might be at the fore of this movement, and it could be the most aggressive among political science journals, but other journals in our field have signed the joint [Data Access & Research Transparency](http://www.dartstatement.org/) (DART) initiative. This, at a bare minimum, requires uploading code from quantitatively-oriented published articles to in-house directories hosted by the journal or to services like [Dataverse](http://dataverse.org/). 
+Academic workflow, certainly in political science, is at a crossroads. The *American
+Journal of Political Science* (*AJPS*) announced a (my words) ["show your work"
+initiative](http://ajps.org/2015/03/26/the-ajps-replication-policy-innovations-and-revisions/)
+in which authors who are tentatively accepted for publication at the journal must hand
+over the raw code and data that produced the results shown in the manuscript. The
+editorial team at *AJPS* then reproduces the code from the manuscript. Pending
+successful replication, the manuscript moves toward publication. The *AJPS* might be at
+the fore of this movement, and it could be the most aggressive among political science
+journals, but other journals in our field have signed the joint [Data Access & Research
+Transparency](http://www.dartstatement.org/) (DART) initiative. This, at a bare minimum,
+requires uploading code from quantitatively-oriented published articles to in-house
+directories hosted by the journal or to services like
+[Dataverse](http://dataverse.org/). 
 
-Perhaps the greatest intrigue of R Markdown comes with the [`knitr` package](http://yihui.name/knitr/) provided by @xie2013ddrk. In other words, the author can, if she chooses, do the analysis in the Markdown document itself and compile/execute it in R.
+Perhaps the greatest intrigue of R Markdown comes with the [`knitr`
+package](http://yihui.name/knitr/) provided by @xie2013ddrk. In other words, the author
+can, if she chooses, do the analysis in the Markdown document itself and compile/execute
+it in R.
 
 <!--
 # References
