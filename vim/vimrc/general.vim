@@ -38,6 +38,7 @@ set noshowcmd
 set shortmess+=F
 set omnifunc=syntaxcomplete#Complete
 set nowrap
+set nowrapscan
 set textwidth=88
 set autoindent
 set smartindent

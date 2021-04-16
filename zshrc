@@ -136,3 +136,5 @@ export PATH=$PATH:/home/ajunaidi/.local/bin
 # Theme for bat
 export BAT_THEME="gruvbox"
 # export BAT_THEME="ansi-light"
+
+neofetch
