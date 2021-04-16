@@ -68,6 +68,6 @@ nnoremap <C-s> [s1z=<c-o>
 inoremap <C-s> <c-g>u<Esc>[s1z=`]A<c-g>u
 
 " Fzf settings
-nnoremap <silent> <leader>f :exe ":Files" . expand("%:h")<cr>
+nnoremap <silent> <leader>f :Files .<cr>
 nnoremap <silent> <leader>F :Files ~/<cr>
 let g:fzf_preview_window = ['right:60%', 'ctrl-/']

@@ -26,8 +26,8 @@ nnoremap <Leader>p :IPythonCellPrevCommand<CR>
 nnoremap <Leader>Q :IPythonCellRestart<CR>
 nnoremap <Leader>d :SlimeSend4 %debug<CR>
 nnoremap <Leader>q :SlimeSend1 exit<CR>k"
-nnoremap [c :IPythonCellPrevCell<CR>
-nnoremap ]c :IPythonCellNextCell<CR>
+nnoremap [c :IPythonCellPrevCell<CR> zz
+nnoremap ]c :IPythonCellNextCell<CR> zz
 nmap <Leader>e <Plug>SlimeLineSend
 xmap <Leader>e <Plug>SlimeRegionSend
 
