@@ -1,0 +1,19 @@
+[KFileDialog Settings]
+Recent Files[$e]=2560x1600.png,file:$HOME/Pictures/Wallpaper/2560x1600.png
+Recent URLs[$e]=file:$HOME/Pictures/Wallpaper/
+detailViewIconSize=80
+
+[MainWindow]
+DP-0 Height 2160=1223
+DP-0 Width 3840=1535
+DP-0 XPosition=560
+DP-0 YPosition=472
+DP-1 Height 1440=700
+DP-1 Height 2160=700
+DP-1 Width 2560=1024
+DP-1 Width 3840=1024
+DP-1 XPosition=578
+DP-1 YPosition=432
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABf8AAATHAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled

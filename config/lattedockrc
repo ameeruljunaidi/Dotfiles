@@ -1,0 +1,50 @@
+[DownloadDialog Settings]
+DP-1 Height 2160=550
+DP-1 Width 3840=800
+
+[KFileDialog Settings]
+Recent Files[$e]=glorious.layout.latte,file:$HOME/AJ's KDE.layout.latte,file:$HOME/Downloads/the-glorious-plasma-setup-master/glorious.layout.latte
+Recent URLs[$e]=file:$HOME/Downloads/the-glorious-plasma-setup-master/,file:$HOME/
+detailViewIconSize=0
+
+[KPropertiesDialog]
+DP-1 Height 2160=606
+DP-1 Width 3840=493
+
+[LatteSettingsDialog]
+downloadWindowSize=800,550
+windowSize=1437,1123
+
+[LatteSettingsDialog][TabLayouts]
+columnWidths=55,,99,
+sortColumn=3
+sortOrder=0
+
+[LatteSettingsDialog][ViewsDialog]
+columnWidths=150,150,150,150,150,
+sortColumn=2
+sortOrder=0
+windowSize=775,500
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_applications:key-mapper.desktop
+
+[PlasmaThemeExtended]
+outlineWidth=1
+
+[ScreenConnectors]
+10=DP-1:::0,0 3840x2160
+11=DP-0:::0,0 3840x2160
+
+[UniversalSettings]
+badges3DStyle=false
+canDisableBorders=false
+inAdvancedModeForEditSettings=false
+launchers=
+memoryUsage=0
+metaPressAndHoldEnabled=true
+mouseSensitivity=2
+screenTrackerInterval=2500
+showInfoWindow=true
+singleModeLayoutName=glorious
+version=2

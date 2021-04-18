@@ -1,0 +1,34 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=1013514d98d8000161878638800000013920003
+clientId2=1013514d98d8000161878638800000013920004
+clientId3=1013514d98d8000161873861600000012760005
+clientId4=1013514d98d8000161876250200000012670009
+clientId5=1013514d98d8000161878984000000013920039
+count=5
+discardCommand5[$e]=rm,$HOME/.config/session/konsole_1013514d98d8000161878984000000013920039_1618789877_494302
+program1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
+program2=pulseaudio
+program3=/usr/bin/latte-dock
+program4=thunderbird
+program5=/usr/bin/konsole
+restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,1013514d98d8000161878638800000013920003_1618789877_494092
+restartCommand2=
+restartCommand3=/usr/bin/latte-dock,-session,1013514d98d8000161873861600000012760005_1618789877_494262
+restartCommand4=/usr/bin/thunderbird,--sm-client-id,1013514d98d8000161876250200000012670009
+restartCommand5=/usr/bin/konsole,-session,1013514d98d8000161878984000000013920039_1618789877_494302
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+restartStyleHint5=0
+userId1=ajunaidi
+userId2=ajunaidi
+userId3=ajunaidi
+userId4=ajunaidi
+userId5=ajunaidi

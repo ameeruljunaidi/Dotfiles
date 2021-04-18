@@ -1,0 +1,33 @@
+{
+   "description": "A Passion: By Abelle Hayford",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmn69luUu7NJzs9jTl4QIJ1fPxgRY3RZDK12B1YUKqMrXn7B56sU56mgE0XiYz09rs35VOevVEZUJAtgQS0vM6pbQkfPw6YBxxAv7ozd/X2rnF6FpLwJeFmeJH6AaTY3K6VbRfAw/oiOlL0+Ff4I0T8WyH6jeURzeew0gqbdEp2+F/BL/zVSr7ekIH30kDmr0JnuvjRt34GX7znIr7TEDRRWS6Sa+N6RNIUWtY23eM903wiUWNDXQ4wcxQTZ4CsEN2y4CSmOlhN0hRuE+7kVR0Cl7yDJKME+HTFxN32cIyylnksK2ZrAzHqTUlO6ZvfZOJu9bZZinQ2o0+b87LrX5hwIDAQAB",
+   "manifest_version": 2,
+   "name": "A Passion",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "frame": [ 26, 26, 81 ],
+         "ntp_background": [ 26, 26, 81 ],
+         "ntp_text": [ 255, 255, 255 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 50, 63, 166 ]
+      },
+      "images": {
+         "theme_ntp_background": "a_passion_1920x1080.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "left",
+         "ntp_background_repeat": "no-repeat",
+         "ntp_logo_alternate": 1
+      },
+      "tints": {
+         "buttons": [ -1, 0.57, 0.9605 ],
+         "frame_inactive": [ -1, -1, -1 ],
+         "frame_incognito": [ -1, -1, -1 ],
+         "frame_incognito_inactive": [ -1, -1, -1 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

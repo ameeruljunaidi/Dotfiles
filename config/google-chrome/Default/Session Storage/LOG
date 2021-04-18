@@ -1,0 +1,18 @@
+2021/04/18-19:52:00.381 5 Reusing MANIFEST /home/ajunaidi/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2021/04/18-19:52:00.382 5 Recovering log #54
+2021/04/18-19:52:00.383 5 Reusing old log /home/ajunaidi/.config/google-chrome/Default/Session Storage/000054.log 
+2021/04/18-19:52:00.721 5 Level-0 table #58: started
+2021/04/18-19:52:00.729 5 Level-0 table #58: 45585 bytes OK
+2021/04/18-19:52:00.733 5 Delete type=0 #54
+2021/04/18-19:52:11.874 3 Level-0 table #60: started
+2021/04/18-19:52:11.884 3 Level-0 table #60: 48105 bytes OK
+2021/04/18-19:52:11.889 3 Delete type=0 #57
+2021/04/18-19:52:11.889 3 Compacting 4@0 + 1@1 files
+2021/04/18-19:52:11.896 3 Generated table #61@0: 1385 keys, 72409 bytes
+2021/04/18-19:52:11.896 3 Compacted 4@0 + 1@1 files => 72409 bytes
+2021/04/18-19:52:11.900 3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/04/18-19:52:11.900 3 Delete type=2 #55
+2021/04/18-19:52:11.900 3 Delete type=2 #53
+2021/04/18-19:52:11.900 3 Delete type=2 #50
+2021/04/18-19:52:11.900 3 Delete type=2 #60
+2021/04/18-19:52:11.900 3 Delete type=2 #58

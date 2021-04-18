@@ -1,0 +1,11 @@
+[$Version]
+update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize
+
+[Mouse]
+Acceleration=2.2
+MouseButtonMapping=RightHanded
+ReverseScrollPolarity=false
+Threshold=4
+XLbInptAccelProfileFlat=true
+XLbInptPointerAcceleration=1
+cursorTheme=Vimix-cursors

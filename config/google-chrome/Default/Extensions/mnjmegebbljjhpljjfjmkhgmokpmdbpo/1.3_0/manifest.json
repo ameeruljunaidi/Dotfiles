@@ -1,0 +1,19 @@
+{
+   "author": "Daniel W. Lu",
+   "chrome_url_overrides": {
+      "newtab": "darknewtab.html"
+   },
+   "description": "A minimalistic grey new tab page for Google Chrome. No external network requests. No analytics. No tracking. No bullshit.",
+   "homepage_url": "https://github.com/dandydanny/darknewtab",
+   "icons": {
+      "128": "darknewtab128.png",
+      "16": "darknewtab16.png",
+      "48": "darknewtab48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkiFwcWJkCBdH4wmtnsycjUp/0UQbw2l8DpPhU1Ko7yY/WH5zpYQ0fbr2xGZnvNBZbVIvM9ziuQo+lwdV12I+gW3IMnBFr9IHwZwSk4ewRrTM1aUkH7IEQ8GMu+8XrMGo04zyAOHnF+39LNVVYJ36B6zCTgRbIg9PbWb9ZBRjkHF6O1hBTNTIOXcWscAAw3OPQwypzzAn9E0Ylndea1Du5tb6bAXKnkha7lZomWm4re4dtWRFfHDtjhUVSTG8T96VM6z7zo0bAVzseNHQa4H2tgmmhmvHl5zFdjqDGoC4fZ+ObYl1OfcZU8rswoKzQjw1I0DYe3nkt297Akx5ahYREwIDAQAB",
+   "manifest_version": 2,
+   "name": "Dark New Tab",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}

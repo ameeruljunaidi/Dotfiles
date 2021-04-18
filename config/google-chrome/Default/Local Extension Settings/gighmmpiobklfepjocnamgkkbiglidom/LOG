@@ -1,0 +1,20 @@
+2021/04/18-19:52:00.791 4701 Reusing MANIFEST /home/ajunaidi/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2021/04/18-19:52:00.791 4701 Recovering log #130
+2021/04/18-19:52:00.791 4701 Reusing old log /home/ajunaidi/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000130.log 
+2021/04/18-19:53:04.002 46f2 Level-0 table #134: started
+2021/04/18-19:53:04.060 46f2 Level-0 table #134: 5683809 bytes OK
+2021/04/18-19:53:04.066 46f2 Delete type=0 #130
+2021/04/18-19:53:04.069 46f2 Compacting 4@0 + 2@1 files
+2021/04/18-19:53:04.167 46f2 Generated table #135@0: 1 keys, 5683605 bytes
+2021/04/18-19:53:04.173 46f2 Generated table #136@0: 5 keys, 371 bytes
+2021/04/18-19:53:04.173 46f2 Compacted 4@0 + 2@1 files => 5683976 bytes
+2021/04/18-19:53:04.176 46f2 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/04/18-19:53:04.176 46f2 Delete type=2 #124
+2021/04/18-19:53:04.176 46f2 Delete type=2 #131
+2021/04/18-19:53:04.176 46f2 Delete type=2 #123
+2021/04/18-19:53:04.176 46f2 Delete type=2 #134
+2021/04/18-19:53:04.176 46f2 Delete type=2 #129
+2021/04/18-19:53:04.176 46f2 Delete type=2 #126
+2021/04/18-19:53:23.311 4706 Level-0 table #138: started
+2021/04/18-19:53:23.370 4706 Level-0 table #138: 5683605 bytes OK
+2021/04/18-19:53:23.374 4706 Delete type=0 #133

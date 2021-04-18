@@ -1,0 +1,27 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[DownloadDialog Settings]
+DP-1 Height 1440=494
+DP-1 Width 2560=699
+
+[Favorite Profiles]
+Favorites=
+
+[KonsoleWindow]
+RemoveWindowTitleBarAndFrame=true
+
+[MainWindow]
+DP-0 Height 2160=2111
+DP-0 Width 3840=1500
+DP-0 XPosition=0
+DP-0 YPosition=49
+DP-1 Height 1440=1375
+DP-1 Width 2560=1000
+DP-1 XPosition=0
+DP-1 YPosition=65
+State=AAAA/wAAAAD9AAAAAAAABdwAAAgbAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+
+[TabBar]
+ExpandTabWidth=true

@@ -1,0 +1,22 @@
+2021/04/18-19:35:29.549 365a Reusing MANIFEST /home/ajunaidi/.config/google-chrome/Default/IndexedDB/https_www.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/18-19:35:29.550 365a Recovering log #93
+2021/04/18-19:35:29.550 365a Reusing old log /home/ajunaidi/.config/google-chrome/Default/IndexedDB/https_www.office.com_0.indexeddb.leveldb/000093.log 
+2021/04/18-19:35:31.228 3659 Compacting 1@0 + 2@1 files
+2021/04/18-19:35:31.249 3659 Generated table #96@0: 685 keys, 2134407 bytes
+2021/04/18-19:35:31.259 3659 Generated table #97@0: 2207 keys, 504322 bytes
+2021/04/18-19:35:31.259 3659 Compacted 1@0 + 2@1 files => 2638729 bytes
+2021/04/18-19:35:31.274 3659 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/04/18-19:35:31.274 3659 Delete type=2 #91
+2021/04/18-19:35:31.274 3659 Delete type=2 #94
+2021/04/18-19:35:31.274 3659 Delete type=2 #90
+2021/04/18-19:37:15.131 364b Level-0 table #99: started
+2021/04/18-19:37:15.148 364b Level-0 table #99: 2806006 bytes OK
+2021/04/18-19:37:15.151 364b Delete type=0 #93
+2021/04/18-19:37:15.173 3659 Compacting 1@0 + 2@1 files
+2021/04/18-19:37:15.198 3659 Generated table #100@0: 655 keys, 2132814 bytes
+2021/04/18-19:37:15.207 3659 Generated table #101@0: 2204 keys, 482763 bytes
+2021/04/18-19:37:15.207 3659 Compacted 1@0 + 2@1 files => 2615577 bytes
+2021/04/18-19:37:15.214 3659 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/04/18-19:37:15.215 3659 Delete type=2 #97
+2021/04/18-19:37:15.215 3659 Delete type=2 #96
+2021/04/18-19:37:15.215 3659 Delete type=2 #99

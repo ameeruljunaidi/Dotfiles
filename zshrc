@@ -90,15 +90,15 @@ alias push-git='push-git.sh'
 alias fix-ycm='fix-ycm.sh'
 alias restart='clear && source ~/.zshrc'
 
-# Display for WSL2
-export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-export LIBGL_ALWAYS_INDIRECT=1
-sudo /etc/init.d/dbus start &> /dev/null
-export GDK_SCALE=1
-export GDK_DPI_SCALE=2
-# export XDG_RUNTIME_DIR=/var/run/user/1000
-export RUNLEVEL=3
-export NO_AT_BRIDGE=1
+# # Display for WSL2
+# export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+# export LIBGL_ALWAYS_INDIRECT=1
+# sudo /etc/init.d/dbus start &> /dev/null
+# export GDK_SCALE=1
+# export GDK_DPI_SCALE=2
+# # export XDG_RUNTIME_DIR=/var/run/user/1000
+# export RUNLEVEL=3
+# export NO_AT_BRIDGE=1
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -116,7 +116,7 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # Set default browser - good for when opening markdown previews
-export BROWSER='/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'
+# export BROWSER='/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'
 
 # Change the color of autosuggestions
 # You'd use this for light themes
@@ -135,5 +135,6 @@ export PATH=$PATH:/home/ajunaidi/binfiles
 export PATH=$PATH:/home/ajunaidi/.local/bin
 
 # Theme for bat
-export BAT_THEME="gruvbox"
+# export BAT_THEME="gruvbox"
 # export BAT_THEME="ansi-light"
+export BAT_THEME="OneHalfDark"

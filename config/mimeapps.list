@@ -1,0 +1,7 @@
+[Added Associations]
+text/plain=vim.desktop;org.kde.kate.desktop;okularApplication_txt.desktop;gvim.desktop;
+text/x-rst=vim.desktop;org.kde.kate.desktop;okularApplication_txt.desktop;gvim.desktop;
+
+[Default Applications]
+text/plain=vim.desktop;
+text/x-rst=vim.desktop;

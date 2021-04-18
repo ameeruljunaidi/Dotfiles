@@ -2,13 +2,16 @@
 FullScreen=false
 
 [MainWindow]
+DP-0 Height 2160=2056
+DP-0 Width 3840=1678
+DP-0 XPosition=0
+DP-0 YPosition=97
 Height 1000=938
-State=AAAA/wAAAAD9AAAAAAAABdwAAAN3AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABo4AAAfSAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1500=1500
 
 [Recent Files]
-File1[$e]=/mnt/c/Users/Test/OneDrive - University of Toronto/Documents/uoft/courses/ENGA11/hitchcock_vertigo/vertigo_journal.pdf
-File2[$e]=/mnt/c/Users/Test/OneDrive - University of Toronto/Documents/uoft/courses/ENGA11/hitchcock_vertigo/vertigo_journal.md
-Name1[$e]=vertigo_journal.pdf
-Name2[$e]=vertigo_journal.md
+File1[$e]=$HOME/OneDrive/notes/merger_acquisition/md_notes/week_6n7.md
+Name1[$e]=week_6n7.md

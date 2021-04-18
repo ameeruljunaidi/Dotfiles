@@ -1,0 +1,23 @@
+[1]
+Active=0
+Tabs=[{"Orientation":"Vertical","Widgets":[{"SessionRestoreId":1}]}]
+
+[Number]
+NumberOfSessions=1
+NumberOfWindows=1
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=$HOME/.local/share/konsole/Profile 1.profile
+RemoteTab=(%u) %H
+SessionGuid={87cc79c0-49e6-4192-a667-957dc2ba4cef}
+TabColor=
+WorkingDir[$e]=$HOME
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+DP-0 XPosition=0
+DP-0 YPosition=0
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAG8AAAABAAAAAQAAAAIAAAACPwAAAAA

@@ -1,0 +1,31 @@
+[KFileDialog Settings]
+Recent Files[$e]=Wallpaper/2560x1600.png,file:$HOME/Pictures/Wallpaper/2560x1600.png
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=100
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_applications:org.kde.latte-dock.desktop,1 services_applications:systemsettings.desktop
+
+[PlasmaTransientsConfig]
+PreloadWeight=0
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 2][Horizontal3840]
+thickness=36
+
+[PlasmaViews][Panel 22]
+alignment=1
+
+[PlasmaViews][Panel 22][Defaults]
+thickness=48
+
+[PlasmaViews][Panel 22][Horizontal3840]
+thickness=48
+
+[ScreenConnectors]
+0=DP-0
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js

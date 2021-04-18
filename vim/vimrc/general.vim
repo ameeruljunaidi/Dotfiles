@@ -31,14 +31,14 @@ set iskeyword+=_
 set splitbelow 
 set splitright 
 set smarttab
-set cursorline
-set ruler
+" set cursorline
+" set ruler
 set noshowmode
 set noshowcmd
 set shortmess+=F
 set omnifunc=syntaxcomplete#Complete
 set nowrap
-set nowrapscan
+" set nowrapscan
 set textwidth=88
 set autoindent
 set smartindent
@@ -70,9 +70,9 @@ let g:auto_save_silent = 1
 " let g:auto_save_write_all_buffers = 1
 
 " Something for the xlaunch thing, I think
-if empty(v:servername) && exists('*remote_startserver')
-    call remote_startserver('VIM')
-endif
+" if empty(v:servername) && exists('*remote_startserver')
+"     call remote_startserver('VIM')
+" endif
 
 " Markdown preview settings
 let g:mkdp_command_for_global = 1

@@ -1,0 +1,26 @@
+2021/04/18-12:59:10.985 c55 Reusing MANIFEST /home/ajunaidi/.config/google-chrome/Default/IndexedDB/https_f1tv.formula1.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/18-12:59:10.985 c55 Recovering log #4
+2021/04/18-12:59:10.985 c55 Reusing old log /home/ajunaidi/.config/google-chrome/Default/IndexedDB/https_f1tv.formula1.com_0.indexeddb.leveldb/000004.log 
+2021/04/18-12:59:11.072 c8b Level-0 table #8: started
+2021/04/18-12:59:11.075 c8b Level-0 table #8: 2102 bytes OK
+2021/04/18-12:59:11.079 c8b Delete type=0 #4
+2021/04/18-12:59:11.079 c8b Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/04/18-15:46:32.083 1ee9 Level-0 table #10: started
+2021/04/18-15:46:32.086 1ee9 Level-0 table #10: 1403 bytes OK
+2021/04/18-15:46:32.090 1ee9 Delete type=0 #7
+2021/04/18-15:46:32.090 1ee9 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x002\x003\x003\x007\x009\x007\x008\x009\x005\x009\x00:\x00w\x00e\x00b\x00:\x004\x00a\x006\x006\x007\x003\x008\x00c\x00c\x002\x005\x007\x004\x004\x00c\x00a\x00b\x00c\x003\x000\x003\x00a' @ 111 : 1
+2021/04/18-15:46:32.090 1ee9 Compacting 1@0 + 1@1 files
+2021/04/18-15:46:32.093 1ee9 Generated table #11@0: 43 keys, 1574 bytes
+2021/04/18-15:46:32.093 1ee9 Compacted 1@0 + 1@1 files => 1574 bytes
+2021/04/18-15:46:32.096 1ee9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/04/18-15:46:32.097 1ee9 Delete type=2 #8
+2021/04/18-15:46:32.097 1ee9 Delete type=2 #10
+2021/04/18-15:46:32.097 1ee9 Manual compaction at level-0 from '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x002\x003\x003\x007\x009\x007\x008\x009\x005\x009\x00:\x00w\x00e\x00b\x00:\x004\x00a\x006\x006\x007\x003\x008\x00c\x00c\x002\x005\x007\x004\x004\x00c\x00a\x00b\x00c\x003\x000\x003\x00a' @ 111 : 1 .. (end); will stop at (end)
+2021/04/18-15:46:32.097 1ee9 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x002\x003\x003\x007\x009\x007\x008\x009\x005\x009\x00:\x00w\x00e\x00b\x00:\x004\x00a\x006\x006\x007\x003\x008\x00c\x00c\x002\x005\x007\x004\x004\x00c\x00a\x00b\x00c\x003\x000\x003\x00a' @ 123 : 1
+2021/04/18-15:46:32.097 1ee9 Compacting 1@1 + 1@2 files
+2021/04/18-15:46:32.100 1ee9 Generated table #12@1: 20 keys, 1290 bytes
+2021/04/18-15:46:32.100 1ee9 Compacted 1@1 + 1@2 files => 1290 bytes
+2021/04/18-15:46:32.103 1ee9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/18-15:46:32.103 1ee9 Delete type=2 #11
+2021/04/18-15:46:32.104 1ee9 Delete type=2 #5
+2021/04/18-15:46:32.104 1ee9 Manual compaction at level-1 from '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x002\x003\x003\x007\x009\x007\x008\x009\x005\x009\x00:\x00w\x00e\x00b\x00:\x004\x00a\x006\x006\x007\x003\x008\x00c\x00c\x002\x005\x007\x004\x004\x00c\x00a\x00b\x00c\x003\x000\x003\x00a' @ 123 : 1 .. (end); will stop at (end)

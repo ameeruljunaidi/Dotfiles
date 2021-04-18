@@ -1,0 +1,8 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Greeter]
+Theme=org.kde.breeze.desktop
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/ajunaidi/Pictures/Wallpaper/2560x1600.png

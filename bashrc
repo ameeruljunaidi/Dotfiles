@@ -116,18 +116,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-cd /mnt/c/Users/AJ
-
 . /home/ajunaidi/anaconda3/etc/profile.d/conda.sh
 conda activate base
 
 alias uoft='cd /mnt/c/Users/AJ/"OneDrive - University of Toronto"/Documents/UofT'
 alias coding='cd /mnt/c/Users/AJ/"OneDrive - University of Toronto"/Documents/Resources/"Coding"'
 alias tmux-ipython='tmux-ipython.sh'
-
-export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-export LIBGL_ALWAYS_INDIRECT=1
-sudo /etc/init.d/dbus start &> /dev/null
 
 # HSTR configuration - add this to ~/.bashrc
 alias hh=hstr                    # hh to be alias for hstr

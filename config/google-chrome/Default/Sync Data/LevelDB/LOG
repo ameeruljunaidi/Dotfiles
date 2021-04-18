@@ -1,0 +1,15 @@
+2021/04/18-19:52:00.198 46f1 Reusing MANIFEST /home/ajunaidi/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/04/18-19:52:00.198 46f1 Recovering log #26
+2021/04/18-19:52:00.199 46f1 Reusing old log /home/ajunaidi/.config/google-chrome/Default/Sync Data/LevelDB/000026.log 
+2021/04/18-19:55:38.866 4702 Level-0 table #30: started
+2021/04/18-19:55:38.878 4702 Level-0 table #30: 118516 bytes OK
+2021/04/18-19:55:38.882 4702 Delete type=0 #26
+2021/04/18-19:55:38.882 4702 Compacting 4@0 + 1@1 files
+2021/04/18-19:55:38.887 4702 Generated table #31@0: 139 keys, 29400 bytes
+2021/04/18-19:55:38.888 4702 Compacted 4@0 + 1@1 files => 29400 bytes
+2021/04/18-19:55:38.891 4702 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/04/18-19:55:38.891 4702 Delete type=2 #30
+2021/04/18-19:55:38.891 4702 Delete type=2 #21
+2021/04/18-19:55:38.891 4702 Delete type=2 #18
+2021/04/18-19:55:38.891 4702 Delete type=2 #27
+2021/04/18-19:55:38.891 4702 Delete type=2 #24
