@@ -6,8 +6,13 @@ eval "$(dircolors -p | \
 # Path to oh-my-zsh installation.
 export ZSH="/home/ajunaidi/.oh-my-zsh"
 
+# For the pure theme
+fpath+=$HOME/.zsh/pure
+autoload -U promptinit; promptinit
+prompt pure
+
 # Set theme
-ZSH_THEME="refined"
+# ZSH_THEME="pure"
 
 # Load plugins
 plugins=(git zsh-autosuggestions fzf zsh-syntax-highlighting)
@@ -138,3 +143,4 @@ export PATH=$PATH:/home/ajunaidi/.local/bin
 # export BAT_THEME="gruvbox"
 # export BAT_THEME="ansi-light"
 export BAT_THEME="OneHalfDark"
+
