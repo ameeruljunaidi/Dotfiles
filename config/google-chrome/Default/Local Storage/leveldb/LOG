@@ -22,3 +22,9 @@
 2021/04/18-20:02:02.862 d Level-0 table #204: started
 2021/04/18-20:02:02.872 d Level-0 table #204: 17817 bytes OK
 2021/04/18-20:02:02.876 d Delete type=0 #200
+2021/04/18-20:07:19.237 d Level-0 table #206: started
+2021/04/18-20:07:19.244 d Level-0 table #206: 78260 bytes OK
+2021/04/18-20:07:19.248 d Delete type=0 #203
+2021/04/18-20:09:50.854 13 Level-0 table #208: started
+2021/04/18-20:09:50.858 13 Level-0 table #208: 16152 bytes OK
+2021/04/18-20:09:50.866 13 Delete type=0 #205

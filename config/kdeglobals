@@ -131,7 +131,7 @@ DoubleClickInterval=400
 LookAndFeelPackage=org.kde.breeze.desktop
 StartDragDist=4
 StartDragTime=500
-WheelScrollLines=4
+WheelScrollLines=3
 contrast=4
 widgetStyle=Lightly
 
