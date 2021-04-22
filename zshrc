@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # Get rid of the ls background colors
 eval "$(dircolors -p | \
     sed 's/ 4[0-9];/ 01;/; s/;4[0-9];/;01;/g; s/;4[0-9] /;01 /' | \
@@ -7,7 +14,7 @@ eval "$(dircolors -p | \
 export ZSH="/home/ajunaidi/.oh-my-zsh"
 
 # Set theme
-ZSH_THEME="refined"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Load plugins
 plugins=(git zsh-autosuggestions fzf zsh-syntax-highlighting)
@@ -138,3 +145,6 @@ export PATH=$PATH:/home/ajunaidi/.local/bin
 # export BAT_THEME="gruvbox"
 # export BAT_THEME="ansi-light"
 export BAT_THEME="base16"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
