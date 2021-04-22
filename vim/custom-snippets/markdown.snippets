@@ -200,12 +200,12 @@ endsnippet
 ############
 
 snippet table "Table"
-${1:First Header}   | ${6:First Header}
---------------------|--------------------
-${2:Content Cell}   | ${7:Content Cell}
-${3:Content Cell}   | ${8:Content Cell}
-${4:Content Cell}   | ${9:Content Cell}
-${5:Content Cell}   | ${10:Content Cell}
+${1:Header}   | ${6:Header}
+--------------|-------------
+${2:Content}  | ${7:Content}
+${3:Content}  | ${8:Content}
+${4:Content}  | ${9:Content}
+${5:Content}  | ${10:Conten}
 $0
 endsnippet
 
@@ -621,7 +621,12 @@ date: "${2:date}"
 geometry: margin=1in
 output: pdf_document
 fontfamily: mathpazo
+include-before:
+- '`\newpage{}`{=latex}'
 ---
+
+\newpage
+
 $0
 endsnippet
 

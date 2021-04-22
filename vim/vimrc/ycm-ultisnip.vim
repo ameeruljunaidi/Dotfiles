@@ -10,18 +10,18 @@ endif
 " let g:ycm_min_num_of_chars_for_completion=0
 
 " To manually open ycm with C-z
-" let g:ycm_auto_trigger = 0
-" inoremap <C-z> <c-r>=<sid>ycm_trigger_identifier()<cr>
+let g:ycm_auto_trigger = 0
+inoremap <C-z> <c-r>=<sid>ycm_trigger_identifier()<cr>
 
-" function! s:ycm_trigger_identifier()
-"   let g:ycm_auto_trigger = 1
-"   augroup ycm_trigger_identifier
-"     au!
-"     autocmd InsertLeave * ++once let g:ycm_auto_trigger = 0
-"   augroup end
-"   doautocmd TextChangedI
-"   return ''
-" endfunction
+function! s:ycm_trigger_identifier()
+  let g:ycm_auto_trigger = 1
+  augroup ycm_trigger_identifier
+    au!
+    autocmd InsertLeave * ++once let g:ycm_auto_trigger = 0
+  augroup end
+  doautocmd TextChangedI
+  return ''
+endfunction
 
 " Ultisnips settings
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "custom-snippets"]
