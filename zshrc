@@ -84,7 +84,7 @@ bindkey -s '^o' 'lfcd\n'
 # Directory aliases
 alias coding='cd ~/coding'
 alias bin='cd /usr/local/bin'
-alias invpsy='cd ~/OneDrive/projects/invpsy_formulaone'
+alias invpsy='cd ~/coding/invpsy_formulaone'
 
 # Executable aliases
 alias tmux-ipython='tmux-ipython.sh'
