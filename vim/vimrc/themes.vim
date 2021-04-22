@@ -19,4 +19,4 @@ let g:airline_theme = 'gruvbox'
 let g:airline_powerline_fonts = 1
 
 " Change the color for search
-" hi Search cterm=NONE ctermfg=black ctermbg=yellow
+hi Search cterm=NONE ctermfg=black ctermbg=yellow
