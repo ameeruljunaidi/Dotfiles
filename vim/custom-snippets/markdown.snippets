@@ -623,6 +623,8 @@ output: pdf_document
 fontfamily: mathpazo
 include-before:
 - '`\newpage{}`{=latex}'
+pandoc-options:
+- --filter=pandoc-include
 ---
 
 \newpage
