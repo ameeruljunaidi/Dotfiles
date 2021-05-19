@@ -81,6 +81,8 @@ lfcd () {
 }
 bindkey -s '^o' 'lfcd\n'  
 
+bindkey -s '^f' 'cd $(fzf --height 20% --reverse)\n'  
+
 # Directory aliases
 alias coding='cd ~/coding'
 alias bin='cd /usr/local/bin'

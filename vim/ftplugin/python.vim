@@ -16,7 +16,7 @@ let g:slime_dont_ask_default = 1
 
 " Key bindings for vim-ipython
 nnoremap <Leader>s :SlimeSend1 ipython --matplotlib<CR>
-nnoremap <Leader>r :IPythonCellRun<CR>
+nnoremap <Leader>r :w \| IPythonCellRun<CR>
 nnoremap <Leader>R :IPythonCellRunTime<CR>
 nnoremap <Leader>c :IPythonCellExecuteCell<CR>
 nnoremap <Leader>C :IPythonCellExecuteCellJump<CR>
@@ -38,9 +38,9 @@ au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 highlight BadWhitespace ctermbg=red guibg=red
 
 " Add a ruler to show line limit
-" set colorcolumn=88
+set colorcolumn=88
 " highlight ColorColumn ctermbg=254
-" highlight ColorColumn ctermbg=237
+highlight ColorColumn ctermbg=237
 
 " Keymap settings for Black
 nmap <F10> :Black<CR>
