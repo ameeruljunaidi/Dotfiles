@@ -9,6 +9,7 @@ Width 1500=1500
 
 [Recent Files]
 File1[$e]=/mnt/c/Users/Test/OneDrive - University of Toronto/Documents/uoft/courses/ENGA11/hitchcock_vertigo/vertigo_journal.pdf
+File10[$e]=$HOME/OneDrive/notes/cons_psych/course_outline.pdf
 File2[$e]=/mnt/c/Users/Test/OneDrive - University of Toronto/Documents/uoft/courses/ENGA11/hitchcock_vertigo/vertigo_journal.md
 File3[$e]=$HOME/coding/pandoc_test/presentation.pdf
 File4[$e]=$HOME/coding/pandoc_test/svm-rmarkdown-article-example.pdf
@@ -16,7 +17,9 @@ File5[$e]=$HOME/coding/pandoc_test/test-doc.pdf
 File6[$e]=$HOME/coding/pandoc_test/test-markdown-template.pdf
 File7[$e]=$HOME/coding/pandoc_test/test.pdf
 File8[$e]=$HOME/OneDrive/notes/derivatives/notes/lecture_notes.pdf
+File9[$e]=$HOME/OneDrive/notes/advertising/reebok_case.pdf
 Name1[$e]=vertigo_journal.pdf
+Name10[$e]=course_outline.pdf
 Name2[$e]=vertigo_journal.md
 Name3[$e]=presentation.pdf
 Name4[$e]=svm-rmarkdown-article-example.pdf
@@ -24,3 +27,4 @@ Name5[$e]=test-doc.pdf
 Name6[$e]=test-markdown-template.pdf
 Name7[$e]=test.pdf
 Name8[$e]=lecture_notes.pdf
+Name9[$e]=reebok_case.pdf

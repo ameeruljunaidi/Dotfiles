@@ -1,0 +1,4 @@
+[Default Applications]
+video/mp4=org.xfce.Parole.desktop;
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;
+text/x-tex=vim.desktop;
